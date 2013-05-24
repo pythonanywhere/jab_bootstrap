@@ -1,6 +1,6 @@
 {% load markup %}
 
-<h2 class="post-title"><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h2>
+<h1 class="post-title"><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h1>
 
 <div class="jab-post">
     {{ post.contents|markdown }}
